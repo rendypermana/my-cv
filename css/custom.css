@@ -1,0 +1,152 @@
+/*baner*/
+.pic-me img{
+  position: absolute;
+  left: 152px;
+  top: 91px;
+}
+.aengs-sebagai{
+    position: absolute;
+    top: 210px;
+    left: 700px;
+}
+.aengs-sebagai h1{
+  color: #4e4e4e;
+  font-family: 'impact'
+}
+.aengs-sebagai2{
+    position: absolute;
+    top: 250px;
+    left: 700px;
+}
+.aengs-sebagai2 h1{
+  color: #4e4e4e;
+  font-family: 'impact'
+}
+.intro{
+  height: 300px;
+  margin-top: 20px;
+}
+#particles canvas{
+  opacity: 0.8;
+}
+#particlesest canvas{
+  opacity: 0.8;
+}
+
+/*quote*/
+.quotes blockquote{
+  color: #4e4e4e;
+}
+
+/*childhood*/
+.childhood{
+  margin: 30px 0px;
+}
+.masa-kecil img{
+  width: 100%;
+}
+.masa-kecil h1{
+  text-align: right;
+  color: #4e4e4e;
+}
+.masa-kecil p{
+  text-align: right;
+}
+.masa-remaja h1{
+  text-align: left;
+  color: #4e4e4e;
+}
+.masa-remaja p{
+  text-align: left;
+}
+
+/*loader*/
+#preloader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #f0ff43;
+  /* change if the mask should have another color then white */
+  z-index: 99;
+  /* makes sure it stays on top */
+}
+
+#status {
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  left: 50%;
+  /* centers the loading animation horizontally one the screen */
+  top: 50%;
+  /* centers the loading animation vertically one the screen */
+  background-image: url(../img/loader.gif);
+  /* path to your loading animation */
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: -100px 0 0 -100px;
+  /* is width and height divided by two */
+}
+
+.logo-bawah img{
+  width: 60px;
+}
+
+/*work*/
+.work-title-head h1{
+  
+}
+.designing{
+
+}
+.designing2{
+  margin-top: 30px;
+}
+.left-design img{
+  width: 100%;
+}
+.right-design{
+  color: #4e4e4e;
+}
+.right-design h1{
+  color: #4e4e4e;
+}
+.right-design .aydo{
+  margin-top: 30px;
+}
+
+/*contact*/
+.contact{
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.form-controls {
+    border: solid 1px #f0ff43 !important;
+    border-width: 0 0 1px 0 !important;
+    background-color: transparent !important;
+    background-image: none !important;
+  
+    border-radius: 0 !important;
+    box-shadow: 0 !important;
+    display: block !important;
+    font-size: 15px !important;
+    height: 45px !important;
+    line-height:  1!important;
+    padding: 5px 20px 20px 14px;
+    width: 100%;
+    box-shadow: none !important;
+    outline: none;
+    box-shadow:none !important;
+}
+.greet{
+  color: #6c757d;
+  font-size: 1.5rem;
+  margin-bottom: 30px;
+}
+.btn-renday{
+  background:#f0ff43;
+  font-family: 'Roboto Slab','Helvetica Neue',Helvetica,Arial,sans-serif;
+  color: #ffffff;
+}

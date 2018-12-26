@@ -1,0 +1,265 @@
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+/*@media (min-width: 1281px) {
+  
+  //CSS
+  
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  
+
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+  header.masthead {
+    text-align: center;
+    color: #fff;
+    background-image: url(../img/banner-bg.png);
+    height: 530px;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  .pic-me img{
+    position: absolute;
+    left: 44px;
+    top: 93px;
+  }
+  .aengs-sebagai{
+      position: absolute;
+      top: 230px;
+      left: 350px;
+  }
+  .aengs-sebagai h1{
+    color: #4e4e4e;
+    font-family: 'impact'
+
+  }
+  .aengs-sebagai2{
+      position: absolute;
+      top: 265px;
+      left: 350px;
+  }
+  .aengs-sebagai2 h1{
+    color: #4e4e4e;
+    font-family: 'impact'
+  }
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  
+ 
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+  header.masthead {
+    text-align: center;
+    color: #fff;
+    background-image: url(../img/banner-bg.png);
+    height: 530px;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  .pic-me img{
+    position: absolute;
+    left: 44px;
+    top: 99px;
+  }
+  .aengs-sebagai{
+      position: absolute;
+      top: 230px;
+      left: 300px;
+  }
+  .aengs-sebagai h1{
+    color: #ddd;
+    font-family: 'impact'
+
+  }
+  .aengs-sebagai2{
+      position: absolute;
+      top: 265px;
+      left: 300px;
+  }
+  .aengs-sebagai2 h1{
+    color: #ddd;
+    font-family: 'impact'
+  }
+  .masa-kecil h1{
+    text-align: center;
+    color: #4e4e4e;
+  }
+  .masa-kecil p{
+    text-align: center;
+  }
+  .masa-remaja h1{
+    text-align: center;
+    color: #4e4e4e;
+  }
+  .masa-remaja p{
+    text-align: center;
+  }
+  .logo-bawah img {
+    width: 60px;
+    margin-top: 10px;
+  }
+  .right-design .aydo {
+    margin-top: 0px;
+  }
+  .right-design{
+    padding-top: 30px;
+  }
+  .right-design h1{
+    text-align: center;
+  }
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  header.masthead {
+    text-align: center;
+    color: #fff;
+    background-image: url(../img/banner-bg.png);
+    height: 530px;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  .pic-me img{
+    width: 325px;
+    position: absolute;
+    left: 15px;
+    top: 143px;
+    height: 360px;
+  }
+  .aengs-sebagai{
+      position: absolute;
+      top: 285px;
+      left: 30px;
+  }
+  .aengs-sebagai h1{
+    color: #ddd;
+    font-family: 'impact'
+
+  }
+  .aengs-sebagai2{
+      position: absolute;
+      top: 325px;
+      left: 30px;
+  }
+  .aengs-sebagai2 h1{
+    color: #ddd;
+    font-family: 'impact'
+  }
+  .masa-kecil h1{
+    text-align: center;
+    color: #4e4e4e;
+  }
+  .masa-kecil p{
+    text-align: center;
+  }
+  .masa-remaja h1{
+    text-align: center;
+    color: #4e4e4e;
+  }
+  .masa-remaja p{
+    text-align: center;
+  }
+  .logo-bawah img {
+    width: 60px;
+    margin-top: 10px;
+  }
+  .right-design .aydo {
+    margin-top: 0px;
+  }
+  .right-design{
+    padding-top: 30px;
+  }
+  .right-design h1{
+    text-align: center;
+  }
+  
+}
+
+@media (max-width: 320px){
+  .pic-me img{
+    position: absolute;
+    left: 0px;
+    top: 144px;
+  }
+  #mainNav .navbar-brand {
+    color: #4e4e4e;
+    font-family: 'castellar';
+    font-size: 15px;
+  }
+  .masa-kecil h1{
+    text-align: center;
+    color: #4e4e4e;
+  }
+  .masa-kecil p{
+    text-align: center;
+  }
+  .masa-remaja h1{
+    text-align: center;
+    color: #4e4e4e;
+  }
+  .masa-remaja p{
+    text-align: center;
+  }
+  .logo-bawah img {
+    width: 60px;
+    margin-top: 10px;
+  }
+  .right-design .aydo {
+    margin-top: 0px;
+  }
+  .right-design{
+    padding-top: 30px;
+  }
+  .right-design h1{
+    text-align: center;
+  }
+}
